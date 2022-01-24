@@ -1,19 +1,6 @@
 import { saveDownload } from './download.js';
 import { VideoRecorder } from '../VideoRecorder.js';
 
-// const root = document.querySelector('#movie_player');
-// const video = root?.querySelector('video');
-
-// console.log(root);
-// console.log(video);
-
-// const stream = new MediaStream(video.captureStream());
-// const recorder = new MediaRecorder(stream);
-// const dataChunks = [];
-
-// console.log(stream);
-// console.log(recorder);
-
 // Это временное решение. TODO: допилить VideoRecorder и логику обновления
 let videoRecorder = new VideoRecorder();
 
